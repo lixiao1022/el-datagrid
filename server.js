@@ -6,7 +6,7 @@ app.get('/list', (req, res) => {
     for (let i = 1; i < 13; i++) {
         data.push({
             name: `lixiao ${i}`,
-            email: `lixiao ${i}@qq.com`
+            email: `lixiao ${i}@163.com`
         });
     }
     setTimeout(() => {
